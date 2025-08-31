@@ -147,3 +147,63 @@ img {
 .boton:hover {
   background-color: #ffffff;
 }
+
+/* Responsive: Tablets */
+@media (max-width: 900px) {
+  .titulo {
+    font-size: 36px;
+  }
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+  .descripcion,
+  .texto-contacto {
+    font-size: 16px;
+    max-width: 90vw;
+  }
+  .form-contacto {
+    max-width: 90vw;
+  }
+}
+
+/* Responsive: Celulares */
+@media (max-width: 600px) {
+  #encabezado {
+    height: 150px;
+  }
+  .titulo {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .contenedor-foto {
+    margin-bottom: 12px;
+  }
+  .foto-perfil {
+    width: 80px;
+    height: 80px;
+  }
+  .descripcion,
+  .texto-contacto {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+  .form-contacto {
+    gap: 10px;
+    padding: 0 4px;
+  }
+  .boton {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+  }
+}
+
+/* Ajuste para imagen de fondo */
+.imagen-fondo {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-height: 300px;
+}
