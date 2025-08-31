@@ -67,8 +67,9 @@
 }
 
 #presentacion {
-  padding: 22px 16px;
   background-color: #fcfcfc;
+  width: 100%;
+  margin: 0;
 }
 
 /* Estilos adicionales para detalles */
@@ -212,9 +213,8 @@ img {
 
 /* Ajuste para imagen de fondo */
 .imagen-fondo {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  max-height: 300px;
 }
